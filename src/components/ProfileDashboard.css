@@ -1,0 +1,35 @@
+.dashboard-container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .profile-section, .dashboard-section {
+    margin-bottom: 20px;
+  }
+  
+  .profile-section h2, .dashboard-section h2 {
+    font-size: 1.5em;
+  }
+  
+  .profile-section p {
+    font-size: 1.2em;
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  

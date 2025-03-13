@@ -1,0 +1,82 @@
+/* Layout for the full page */
+.layout {
+    display: flex;
+    min-height: 100vh; /* Ensure full height of the viewport */
+    width: 100vw; /* Full width of the viewport */
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    width: 300px;
+    background-color: #2C3E50;
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    height: 100vh; /* Full height of the viewport */
+}
+
+.sidebar h2 {
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar li {
+    margin: 15px 0;
+}
+
+.sidebar li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.sidebar li a:hover {
+    text-decoration: underline;
+}
+
+.main-content {
+    flex: 1; /* Take up remaining space */
+    background-color: #f4f4f4;
+    padding: 30px;
+    box-sizing: border-box;
+    overflow-y: auto;
+}
+
+.grievance-table {
+    width: 95%;
+    border-collapse: collapse;
+    background-color: white;
+    margin-top: 20px;
+}
+
+.grievance-table th, .grievance-table td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.grievance-table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+
+.grievance-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+.grievance-table a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.grievance-table a:hover {
+    text-decoration: underline;
+}
